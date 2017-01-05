@@ -2687,7 +2687,7 @@
           "_postman_id": "4eb0ea7a-c990-2bdb-2dac-4297a2bba1dc",
           "name": "RemoveInAddressBook",
           "request": {
-            "url": "{{url}}/ServUpApi/v1/Contact/RemoveInAddressBook",
+            "url": "{{url}}/Api/v1/AddressBook/Contacts/Remove",
             "method": "POST",
             "header": [
               {
