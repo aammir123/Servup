@@ -15,6 +15,18 @@
         {
           "_postman_id": "685f4723-05e1-a238-a641-d9d8c616ab4e",
           "name": "RegisterAppUser",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "var jsonData = JSON.parse(responseBody);\r",
+                  "postman.setEnvironmentVariable(\"token\", jsonData.access_token);"
+                ]
+              }
+            }
+          ],
           "request": {
             "url": "{{url}}/Api/v1/Users/Register",
             "method": "POST",
