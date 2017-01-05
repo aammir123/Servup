@@ -2613,7 +2613,7 @@
           "_postman_id": "fd450359-4929-2e2a-daaf-a41225d6fa4a",
           "name": "SynchAddressBook",
           "request": {
-            "url": "{{url}}/ServUpApi/v1/Contact/SynchAddressBook",
+            "url": "{{url}}/Api/v1/AddressBook/Contacts/Sync",
             "method": "POST",
             "header": [
               {
