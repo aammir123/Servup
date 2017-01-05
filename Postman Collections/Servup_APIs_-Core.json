@@ -2656,7 +2656,7 @@
           "_postman_id": "0398cc98-1c23-22e4-f23b-457d5abe2557",
           "name": "AddContactInAddressBook",
           "request": {
-            "url": "{{url}}/ServUpApi/v1/Contact/AddContactInAddressBook",
+            "url": "{{url}}/Api/v1/AddressBook/Contacts/Add",
             "method": "POST",
             "header": [
               {
