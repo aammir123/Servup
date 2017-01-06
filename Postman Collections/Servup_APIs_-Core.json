@@ -3765,7 +3765,7 @@
     },
     {
       "_postman_id": "bac514e6-1218-6ce2-21c0-a90ddfec15aa",
-      "name": "Sp Access Token copy",
+      "name": "Consumer Access Token ",
       "event": [
         {
           "listen": "test",
