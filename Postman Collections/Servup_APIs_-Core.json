@@ -54,7 +54,7 @@
           "_postman_id": "eba03194-2ece-f2de-f567-3b3140d5ba55",
           "name": "FindUserAndGeneratePinIfNotExist",
           "request": {
-            "url": "{{url}}/Api/v1/Users//Pin",
+            "url": "{{url}}/Api/v1/Users/00923038860118/Pin",
             "method": "GET",
             "header": [
               {
