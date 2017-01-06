@@ -3805,13 +3805,13 @@
             },
             {
               "key": "client_id",
-              "value": "servup_sp_app",
+              "value": "servup_consumer_app",
               "type": "text",
               "enabled": true
             },
             {
               "key": "scope",
-              "value": "offline_access sp",
+              "value": "offline_access consumer",
               "type": "text",
               "enabled": true
             }
