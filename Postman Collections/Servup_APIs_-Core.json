@@ -2811,7 +2811,7 @@
           "_postman_id": "407fa966-76ec-0c43-3a5b-c533d0058f87",
           "name": "GetSuggestionList",
           "request": {
-            "url": "{{url}}/ServUpApi/v1/Contact/GetSuggestionList",
+            "url": "{{url}}/Api/v1/Contacts/Suggestions",
             "method": "GET",
             "header": [
               {
