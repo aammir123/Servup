@@ -54,7 +54,7 @@
           "_postman_id": "eba03194-2ece-f2de-f567-3b3140d5ba55",
           "name": "FindUserAndGeneratePinIfNotExist",
           "request": {
-            "url": "{{url}}/ServUpApi/v1/Onboarding/FindUserAndGeneratePinIfNotExist/00923219729811",
+            "url": "{{url}}/Api/v1/Users//Pin",
             "method": "GET",
             "header": [
               {
