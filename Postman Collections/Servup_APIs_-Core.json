@@ -1282,7 +1282,7 @@
           "_postman_id": "4a2b5de3-0cdd-ef2c-5b8d-edf393eeaa58",
           "name": "GetProfile",
           "request": {
-            "url": "{{url}}/ServUpApi/v1/ProfileCard/GetProfile",
+            "url": "{{url}}/Api/v1/Users/Profile",
             "method": "GET",
             "header": [
               {
