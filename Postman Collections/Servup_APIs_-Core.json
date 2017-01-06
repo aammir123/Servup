@@ -2546,7 +2546,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\r\n  \"businessName\": \"string\",\r\n  \"businessTagline\": \"string\",\r\n  \"businessPhone\": \"string\",\r\n  \"businessAddress\": \"string\",\r\n  \"businessDescription\": \"string\",\r\n  \"companyWebSite\": \"string\",\r\n  \"logoUrl\": \"string\",\r\n  \"coverPictureUrl\": \"string\",\r\n  \"socialHandles\": [\r\n    {\r\n      \"socialChannel\": \"string\",\r\n      \"handle\": \"string\"\r\n    }\r\n  ]\r\n}"
+              "raw": "{\r\n  \"businessName\": \"string\",\r\n  \"businessTagline\": \"string\",\r\n  \"businessPhone\": \"string\",\r\n  \"businessAddress\": \"string\",\r\n  \"businessDescription\": \"string\",\r\n  \"companyWebSite\": \"string\",\r\n  \"logoUrl\": \"\",\r\n  \"coverPictureUrl\": \"string\",\r\n  \"socialHandles\": [\r\n    {\r\n      \"socialChannel\": \"string\",\r\n      \"handle\": \"string\"\r\n    }\r\n  ]\r\n}"
             },
             "description": ""
           },
