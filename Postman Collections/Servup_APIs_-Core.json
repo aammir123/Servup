@@ -106,7 +106,7 @@
           "_postman_id": "88831583-701b-d38c-a274-3bd3ac72a3ee",
           "name": "VerifyPIN",
           "request": {
-            "url": "{{url}}/ServUpApi/v1/Onboarding/VerifyPIN",
+            "url": "{{url}}/Api/v1/Users/00923038860118/Pin/1111/Verify",
             "method": "POST",
             "header": [
               {
