@@ -3762,6 +3762,64 @@
         "description": ""
       },
       "response": []
+    },
+    {
+      "_postman_id": "bac514e6-1218-6ce2-21c0-a90ddfec15aa",
+      "name": "Sp Access Token copy",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "var jsonData = JSON.parse(responseBody);\r",
+              "postman.setEnvironmentVariable(\"token\", jsonData.access_token);"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "url": "{{TokenUrl}}/connect/token",
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "username",
+              "value": "aammir.asghar@gmail.com",
+              "type": "text",
+              "enabled": true
+            },
+            {
+              "key": "password",
+              "value": "abc",
+              "type": "text",
+              "enabled": true
+            },
+            {
+              "key": "grant_type",
+              "value": "password",
+              "type": "text",
+              "enabled": true
+            },
+            {
+              "key": "client_id",
+              "value": "servup_sp_app",
+              "type": "text",
+              "enabled": true
+            },
+            {
+              "key": "scope",
+              "value": "offline_access sp",
+              "type": "text",
+              "enabled": true
+            }
+          ]
+        },
+        "description": ""
+      },
+      "response": []
     }
   ]
 }
