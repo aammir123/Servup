@@ -1034,7 +1034,7 @@
           "_postman_id": "5662692e-c1f2-1c88-7d43-54b5924ec7c5",
           "name": "GetDetailCard",
           "request": {
-            "url": "{{url}}/Api/v1/ServiceCards/64e64e1f5d92464da31805a08b725195",
+            "url": "{{url}}/Api/v1/ServiceCards/3c367a59b2e34d7fa3ef98cc0a05eef1",
             "method": "GET",
             "header": [
               {
