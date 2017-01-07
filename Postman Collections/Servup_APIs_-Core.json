@@ -2842,7 +2842,7 @@
           "_postman_id": "56ffa39b-353b-f5ff-7558-b2c26f6af79d",
           "name": "GetInvitationList",
           "request": {
-            "url": "{{url}}/Api/v1/Contacts/Invitations",
+            "url": "{{url}}/Api/v1/Contacts/Invite",
             "method": "GET",
             "header": [
               {
