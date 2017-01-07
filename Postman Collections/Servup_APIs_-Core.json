@@ -2749,7 +2749,7 @@
           "_postman_id": "1dc1eb7d-1084-9e3a-f665-2fbba4da87ec",
           "name": "InviteFriend",
           "request": {
-            "url": "{{url}}/ServUpApi/v1/Contact/InviteFriend",
+            "url": "{{url}}/Api/v1/Contacts/Invite",
             "method": "POST",
             "header": [
               {
