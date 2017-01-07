@@ -44,7 +44,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\r\n  \"name\": \"Aamir Asghar\",\r\n  \"mobileNumber\": \"00923038860054\",\r\n  \"password\": \"123456\",\r\n  \"email\": \"aammir.asghar@gmail.com\",\r\n  \"isTermsAndConditionsAgreed\": true\r\n}"
+              "raw": "{\r\n  \"name\": \"Aamir Asghar\",\r\n  \"mobileNumber\": \"0909029309209\",\r\n  \"password\": \"123456\",\r\n  \"email\": \"aammir.asghar@gmail.com\",\r\n  \"isTermsAndConditionsAgreed\": true\r\n}"
             },
             "description": ""
           },
