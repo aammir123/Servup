@@ -724,7 +724,7 @@
           "_postman_id": "b1c42446-819e-d860-09d8-d4ca87f44d67",
           "name": "GetAddress",
           "request": {
-            "url": "{{url}}/ServUpApi/v1/ProfileCard/GetAddress/home",
+            "url": "{{url}}/Api/v1/Users/Profile/Addresses/home",
             "method": "GET",
             "header": [
               {
