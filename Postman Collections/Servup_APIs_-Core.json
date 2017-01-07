@@ -2780,7 +2780,7 @@
           "_postman_id": "26d33a91-6220-fc46-ca3d-a5b974f334c6",
           "name": "GetInviteList",
           "request": {
-            "url": "{{url}}/ServUpApi/v1/Contact/GetInviteList",
+            "url": "{{url}}/Api/v1/Contacts/Invited",
             "method": "GET",
             "header": [
               {
