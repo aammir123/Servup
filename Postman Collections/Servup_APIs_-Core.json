@@ -3252,7 +3252,7 @@
           "_postman_id": "0a2bf10e-e7ca-cd45-62c1-84a117f48361",
           "name": "Get Card By Id",
           "request": {
-            "url": "{{url}}/Api/v1/SP/ServiceCards/{cardId}",
+            "url": "{{url}}/Api/v1/SP/ServiceCards/2be6c3abb4cb4573850752c9eb4b6c6f",
             "method": "GET",
             "header": [
               {
