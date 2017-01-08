@@ -1530,7 +1530,7 @@
           "_postman_id": "e75302ee-62dd-283e-b385-71f856a1664b",
           "name": "SetDefaultCustomerPaymentMethod",
           "request": {
-            "url": "{{url}}/Api/v1/Users/Settings/PaymentMethods/{paymentMethodId}/SetDefault",
+            "url": "{{url}}/Api/v1/Users/Settings/PaymentMethods/4a9378546a3e4733acd26abdc2bc77f7/SetDefault",
             "method": "POST",
             "header": [
               {
