@@ -1499,7 +1499,7 @@
           "_postman_id": "bbff4e3b-fc58-89e0-e1af-85a9bbbf8f61",
           "name": "GetCustomerPaymentMethods",
           "request": {
-            "url": "{{url}}/ServUpApi/v1/ProfileCard/GetCustomerPaymentMethods",
+            "url": "{{url}}/Api/v1/Users/Settings/PaymentMethods",
             "method": "GET",
             "header": [
               {
