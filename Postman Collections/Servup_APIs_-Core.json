@@ -1871,7 +1871,7 @@
           "_postman_id": "218b0503-485c-33c0-520c-c8f751481d4c",
           "name": "RemovePaymentMethod",
           "request": {
-            "url": "{{url}}/ServUpApi/v1/ProfileCard/RemoveCustomerPaymentMethod/988e0c07f2ee422382fbeb211f3e9522",
+            "url": "{{url}}/Api/v1/Users/Settings/PaymentMethods/{paymentMethodId}",
             "method": "PUT",
             "header": [
               {
