@@ -1530,7 +1530,7 @@
           "_postman_id": "e75302ee-62dd-283e-b385-71f856a1664b",
           "name": "SetDefaultCustomerPaymentMethod",
           "request": {
-            "url": "{{url}}/ServUpApi/v1/ProfileCard/SetDefaultPaymentMethod/13e9e576e76241a7b2e54730bcd14bee",
+            "url": "{{url}}/ServUpApi/v1/ProfileCard/SetDefaultPaymentMethod/4a9378546a3e4733acd26abdc2bc77f7",
             "method": "POST",
             "header": [
               {
