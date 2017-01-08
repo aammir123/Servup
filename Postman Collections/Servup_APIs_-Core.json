@@ -1531,7 +1531,7 @@
           "name": "SetDefaultCustomerPaymentMethod",
           "request": {
             "url": "{{url}}/Api/v1/Users/Settings/PaymentMethods/4a9378546a3e4733acd26abdc2bc77f7/SetDefault",
-            "method": "POST",
+            "method": "PUT",
             "header": [
               {
                 "key": "Accept",
