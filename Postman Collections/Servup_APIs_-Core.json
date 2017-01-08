@@ -1241,7 +1241,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "\r\n{\r\n  \"name\": \"stripe\",\r\n  \"addtionalParameters\": \r\n  {\r\n    \"token\": \"slkjsklfjsakldjfljkfj\",\r\n    \"last4\": \"9858\",\r\n    \"brand\" : \"Visa\",\r\n    \"country\" : \"US\",\r\n    \"exp_month\": \"12\",\r\n    \"exp_year\" : \"17\",\r\n    \"funding\" : \"Credit\"\r\n  }\r\n}\r\n"
+              "raw": "{\r\n  \"name\": \"stripe\",\r\n  \"addtionalParameters\": \r\n  {\r\n    \"token\": \"slkjsklfjsakldjfljkfj\",\r\n    \"last4\": \"9858\",\r\n    \"brand\" : \"Visa\",\r\n    \"country\" : \"US\",\r\n    \"exp_month\": \"12\",\r\n    \"exp_year\" : \"17\",\r\n    \"funding\" : \"Credit\"\r\n  }\r\n}\r\n"
             },
             "description": ""
           },
