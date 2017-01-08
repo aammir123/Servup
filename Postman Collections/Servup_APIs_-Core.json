@@ -1220,7 +1220,7 @@
           "_postman_id": "ebb4d62f-91ec-ac0b-c6f5-3d6a9976e499",
           "name": "AddCustomerPaymentMethod",
           "request": {
-            "url": "{{url}}/ServUpApi/v1/ProfileCard/AddCustomerPaymentMethod",
+            "url": "{{url}}/Api/v1/Users/Settings/PaymentMethods",
             "method": "POST",
             "header": [
               {
