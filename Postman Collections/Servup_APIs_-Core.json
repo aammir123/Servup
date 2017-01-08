@@ -2208,7 +2208,7 @@
           "_postman_id": "8b946870-a0c5-ebeb-fc01-2db7fea772cf",
           "name": "OrderPayment",
           "request": {
-            "url": "{{url}}/Api/v1/Orders/570852d74d1f496c885a1e99a23991b4/Pay/{paymentMethodId}",
+            "url": "{{url}}/Api/v1/Orders/570852d74d1f496c885a1e99a23991b4/Pay/",
             "method": "PUT",
             "header": [
               {
