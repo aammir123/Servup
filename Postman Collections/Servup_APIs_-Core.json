@@ -3414,7 +3414,7 @@
           "_postman_id": "5b3be3f2-9e6d-9e4a-13e5-ce4d4b3de0e2",
           "name": "LOV-ServiceType",
           "request": {
-            "url": "{{url}}/ServUpApi/v1/LOV/GetLov/ServiceTypeLOV",
+            "url": "{{url}}/Api/v1/LOV/ServiceTypeLOV",
             "method": "GET",
             "header": [],
             "body": {
