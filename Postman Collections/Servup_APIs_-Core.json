@@ -1034,7 +1034,7 @@
           "_postman_id": "5662692e-c1f2-1c88-7d43-54b5924ec7c5",
           "name": "GetDetailCard",
           "request": {
-            "url": "{{url}}/Api/v1/ServiceCards/5d01fe52749b4d6b949ee16fb44b8113",
+            "url": "{{url}}/Api/v1/ServiceCards/469c1e5f534c47dd918754435bd8ee52",
             "method": "GET",
             "header": [
               {
@@ -1044,7 +1044,7 @@
               },
               {
                 "key": "Content-Type",
-                "value": "application/json;charset=utf-8;",
+                "value": "application/json",
                 "description": ""
               },
               {
