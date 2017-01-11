@@ -2006,6 +2006,37 @@
           "response": []
         },
         {
+          "_postman_id": "8b946870-a0c5-ebeb-fc01-2db7fea772cf",
+          "name": "OrderPayment",
+          "request": {
+            "url": "{{url}}/Api/v1/Orders/fe593c0edb2a456398583462d7b15961/Pay/4db9cdb3c04c4218b4f5872fdadbe8d2",
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json",
+                "description": ""
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "description": ""
+              },
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}",
+                "description": ""
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": ""
+            },
+            "description": ""
+          },
+          "response": []
+        },
+        {
           "_postman_id": "e9a6eb08-d124-2d53-af6a-a75e04bb5a3a",
           "name": "Update Order",
           "request": {
@@ -2093,6 +2124,37 @@
             "body": {
               "mode": "raw",
               "raw": ""
+            },
+            "description": ""
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "f4f424da-961b-7d01-075f-d97bcdb04b4c",
+          "name": "ChnageOrderStatus",
+          "request": {
+            "url": "{{url}}/Api/v1/Orders/da5ffbe2cb984ba6b9b7b318dd14d9ea/status",
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json",
+                "description": ""
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "description": ""
+              },
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}",
+                "description": ""
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"status\": \"Delivered\",\r\n  \"comment\": \"dsfjsdfjkshdjfhdsf\"\r\n}"
             },
             "description": ""
           },
@@ -2199,68 +2261,6 @@
             "body": {
               "mode": "raw",
               "raw": "{\r\n  \"status\": \"done\",\r\n  \"comment\": \"stsdfsdlfjdfring\",\r\n  \"createdAt\": \"2016-11-16T15:25:16.703Z\"\r\n}"
-            },
-            "description": ""
-          },
-          "response": []
-        },
-        {
-          "_postman_id": "8b946870-a0c5-ebeb-fc01-2db7fea772cf",
-          "name": "OrderPayment",
-          "request": {
-            "url": "{{url}}/Api/v1/Orders/fe593c0edb2a456398583462d7b15961/Pay/4db9cdb3c04c4218b4f5872fdadbe8d2",
-            "method": "PUT",
-            "header": [
-              {
-                "key": "Accept",
-                "value": "application/json",
-                "description": ""
-              },
-              {
-                "key": "Content-Type",
-                "value": "application/json",
-                "description": ""
-              },
-              {
-                "key": "Authorization",
-                "value": "Bearer {{token}}",
-                "description": ""
-              }
-            ],
-            "body": {
-              "mode": "raw",
-              "raw": ""
-            },
-            "description": ""
-          },
-          "response": []
-        },
-        {
-          "_postman_id": "f4f424da-961b-7d01-075f-d97bcdb04b4c",
-          "name": "ChnageOrderStatus",
-          "request": {
-            "url": "{{url}}/Api/v1/Orders/da5ffbe2cb984ba6b9b7b318dd14d9ea/status",
-            "method": "PUT",
-            "header": [
-              {
-                "key": "Accept",
-                "value": "application/json",
-                "description": ""
-              },
-              {
-                "key": "Content-Type",
-                "value": "application/json",
-                "description": ""
-              },
-              {
-                "key": "Authorization",
-                "value": "Bearer {{token}}",
-                "description": ""
-              }
-            ],
-            "body": {
-              "mode": "raw",
-              "raw": "{\r\n  \"status\": \"Delivered\",\r\n  \"comment\": \"dsfjsdfjkshdjfhdsf\"\r\n}"
             },
             "description": ""
           },
