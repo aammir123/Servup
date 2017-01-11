@@ -2037,6 +2037,68 @@
           "response": []
         },
         {
+          "_postman_id": "43c8d51a-3a42-151c-42dc-2a4f79343457",
+          "name": "Refund",
+          "request": {
+            "url": "{{url}}/Api/v1/Orders/620334b866d94f32aefc6addd3f813d8/updateStatus",
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json",
+                "description": ""
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "description": ""
+              },
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}",
+                "description": ""
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"status\": \"done\",\r\n  \"comment\": \"stsdfsdlfjdfring\",\r\n  \"createdAt\": \"2016-11-16T15:25:16.703Z\"\r\n}"
+            },
+            "description": ""
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "f4c7558f-b005-f092-607c-7e838c68572c",
+          "name": "OrderPayment copy",
+          "request": {
+            "url": "{{url}}/Api/v1/Orders/AddCustomerCreditCard",
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json",
+                "description": ""
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "description": ""
+              },
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}",
+                "description": ""
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": ""
+            },
+            "description": ""
+          },
+          "response": []
+        },
+        {
           "_postman_id": "8b946870-a0c5-ebeb-fc01-2db7fea772cf",
           "name": "OrderPayment",
           "request": {
@@ -2161,10 +2223,10 @@
           "response": []
         },
         {
-          "_postman_id": "f4c7558f-b005-f092-607c-7e838c68572c",
-          "name": "OrderPayment copy",
+          "_postman_id": "eb0a12f1-3074-04dc-babb-b5282b7e3b79",
+          "name": "RefundOrder",
           "request": {
-            "url": "{{url}}/Api/v1/Orders/AddCustomerCreditCard",
+            "url": "{{url}}/Api/v1/Orders/{orderId}/refundOrder",
             "method": "PUT",
             "header": [
               {
@@ -2198,106 +2260,6 @@
       "name": "Token APIs",
       "description": "",
       "item": []
-    },
-    {
-      "_postman_id": "a6ddfa49-6b4e-c82e-4e6f-8929edeabc50",
-      "name": "Transaction",
-      "description": "",
-      "item": [
-        {
-          "_postman_id": "87be3f3d-2fa4-e448-cb75-cad126b51f00",
-          "name": "PlaceOrder",
-          "request": {
-            "url": "{{url}}/Api/v1/Orders",
-            "method": "POST",
-            "header": [
-              {
-                "key": "Accept",
-                "value": "application/json",
-                "description": ""
-              },
-              {
-                "key": "Content-Type",
-                "value": "application/json",
-                "description": ""
-              },
-              {
-                "key": "Authorization",
-                "value": "Bearer {{token}}",
-                "description": ""
-              }
-            ],
-            "body": {
-              "mode": "raw",
-              "raw": "[\r\n  {\r\n    \"cardId\": \"a4d7955744f84a3fab537a551fdb97fe\",\r\n    \"planId\": \"ddf94cfdfb4a4ea69822c67afede3762\",\r\n    \"orderAttribute\": [\r\n      {\r\n        \"attributeName\": \"string\",\r\n        \"selectedValues\": [\r\n          \"string\"\r\n        ]\r\n      }\r\n    ],\r\n    \"orderQuestions\": [\r\n      {\r\n        \"question\": \"string\",\r\n        \"selectedAnswers\": [\r\n          \"string\"\r\n        ]\r\n      }\r\n    ],\r\n    \"selectedUsers\": [],\r\n    \"isAutomaticRenewalApplied\": true,\r\n    \"quantity\": 3\r\n  }\r\n]\r\n"
-            },
-            "description": ""
-          },
-          "response": []
-        },
-        {
-          "_postman_id": "eb0a12f1-3074-04dc-babb-b5282b7e3b79",
-          "name": "RefundOrder",
-          "request": {
-            "url": "{{url}}/Api/v1/Orders/{orderId}/refundOrder",
-            "method": "PUT",
-            "header": [
-              {
-                "key": "Accept",
-                "value": "application/json",
-                "description": ""
-              },
-              {
-                "key": "Content-Type",
-                "value": "application/json",
-                "description": ""
-              },
-              {
-                "key": "Authorization",
-                "value": "Bearer {{token}}",
-                "description": ""
-              }
-            ],
-            "body": {
-              "mode": "raw",
-              "raw": ""
-            },
-            "description": ""
-          },
-          "response": []
-        },
-        {
-          "_postman_id": "43c8d51a-3a42-151c-42dc-2a4f79343457",
-          "name": "Refund",
-          "request": {
-            "url": "{{url}}/Api/v1/Orders/620334b866d94f32aefc6addd3f813d8/updateStatus",
-            "method": "PUT",
-            "header": [
-              {
-                "key": "Accept",
-                "value": "application/json",
-                "description": ""
-              },
-              {
-                "key": "Content-Type",
-                "value": "application/json",
-                "description": ""
-              },
-              {
-                "key": "Authorization",
-                "value": "Bearer {{token}}",
-                "description": ""
-              }
-            ],
-            "body": {
-              "mode": "raw",
-              "raw": "{\r\n  \"status\": \"done\",\r\n  \"comment\": \"stsdfsdlfjdfring\",\r\n  \"createdAt\": \"2016-11-16T15:25:16.703Z\"\r\n}"
-            },
-            "description": ""
-          },
-          "response": []
-        }
-      ]
     },
     {
       "_postman_id": "b9863641-9766-18b7-50f7-0a88ac4c1eac",
