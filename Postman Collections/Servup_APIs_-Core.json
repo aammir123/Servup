@@ -1065,7 +1065,7 @@
           "_postman_id": "b3edccee-a1fa-5a5d-b421-26ec5e745301",
           "name": "LikeCard",
           "request": {
-            "url": "{{url}}/Api/v1/ServiceCards/88e8b89be15f4eb79f9e1ab29c5c6bf6/Save",
+            "url": "{{url}}/Api/v1/ServiceCards/469c1e5f534c47dd918754435bd8ee52/Save",
             "method": "POST",
             "header": [
               {
