@@ -1158,7 +1158,7 @@
           "_postman_id": "a8230719-e880-ccd9-3946-66fe60e8fb98",
           "name": "GetMySubscriptionDetail",
           "request": {
-            "url": "{{url}}/Api/v1/Subscriptions/5214494375e946e58a480793f8fa334a",
+            "url": "{{url}}/Api/v1/Subscriptions/52c4fa0b9005436c9c2ab30e56609c81",
             "method": "GET",
             "header": [
               {
