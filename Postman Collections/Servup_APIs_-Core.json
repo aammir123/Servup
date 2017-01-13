@@ -755,7 +755,7 @@
           "_postman_id": "f7bb43d9-677d-9fc1-7004-bfe89a46540b",
           "name": "AddAddress",
           "request": {
-            "url": "{{url}}/ServUpApi/v1/ProfileCard/AddAddress",
+            "url": "{{url}}/Api/v1/Users/Profile/Addresses",
             "method": "POST",
             "header": [
               {
