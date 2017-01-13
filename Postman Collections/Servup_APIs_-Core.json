@@ -776,7 +776,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\r\n  \"addressId\": null,\r\n  \"addressType\": \"home1\",\r\n  \"name\": \"Amir\",\r\n  \"address1\": \"string\",\r\n  \"address2\": \"string\",\r\n  \"zipCode\": \"string\",\r\n  \"city\": \"lahore4\",\r\n  \"state\": \"string\",\r\n  \"country\": \"string\"\r\n}"
+              "raw": "{\r\n  \"addressType\": \"string\",\r\n  \"name\": \"string\",\r\n  \"address1\": \"string\",\r\n  \"address2\": \"string\",\r\n  \"zipCode\": \"string\",\r\n  \"city\": \"string\",\r\n  \"state\": \"string\",\r\n  \"country\": \"string\"\r\n}"
             },
             "description": ""
           },
