@@ -54,7 +54,7 @@
           "_postman_id": "eba03194-2ece-f2de-f567-3b3140d5ba55",
           "name": "FindUserAndGeneratePinIfNotExist",
           "request": {
-            "url": "{{url}}/Api/v1/Users/00923038860118/Pin",
+            "url": "{{url}}/Api/v1/Users/00923235029955/Pin",
             "method": "GET",
             "header": [
               {
@@ -324,7 +324,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "{\r\n  \"mobileNumber\": \"imran.shabbbir@gmail.com\",\r\n  \"forgotPasswordPIN\": \"136664\"\r\n}"
+              "raw": "{\r\n  \"mobileNumber\": \"00923038860118\",\r\n  \"forgotPasswordPIN\": \"136664\"\r\n}"
             },
             "description": ""
           },
