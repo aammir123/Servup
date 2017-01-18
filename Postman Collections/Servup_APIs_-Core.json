@@ -817,7 +817,7 @@
           "_postman_id": "506c0724-eaee-03a1-37c9-7afeeb70f105",
           "name": "DeleteAddress",
           "request": {
-            "url": "{{url}}/Api/v1/Users/Profile/Addresses/{addressId}",
+            "url": "{{url}}/Api/v1/Users/Profile/Addresses/14dda25766fa4f12b9d2352af4e71e63",
             "method": "DELETE",
             "header": [
               {
