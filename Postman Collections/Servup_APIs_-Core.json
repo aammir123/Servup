@@ -1809,7 +1809,7 @@
           "_postman_id": "e24a45e4-ee02-aeb6-6906-9da8edff0d7e",
           "name": "Get Notification settings",
           "request": {
-            "url": "{{url}}/Api/v1/ProfileCard/NotificationSettings",
+            "url": "{{url}}/Api/v1/Users/Settings/Notifications",
             "method": "GET",
             "header": [
               {
