@@ -786,7 +786,7 @@
           "_postman_id": "f97dfd48-eee6-8dd6-2ddc-c5749bf0dcb3",
           "name": "UpdateAddress",
           "request": {
-            "url": "{{url}}/Api/v1/Users/Profile/Addresses/f0573ccdb7b5471091888992a54925da",
+            "url": "{{url}}/Api/v1/Users/Profile/Addresses/14dda25766fa4f12b9d2352af4e71e63",
             "method": "PUT",
             "header": [
               {
