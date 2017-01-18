@@ -2121,6 +2121,99 @@
             "description": "this is just duplication of the \"User 1 adds User 2 as friend\" already listed above it. \n\nuset this to add friends/family etc"
           },
           "response": []
+        },
+        {
+          "_postman_id": "660951aa-181e-bb90-e950-89ed5a55abff",
+          "name": "BlockUserRelation",
+          "request": {
+            "url": "{{url}}/ServUpApi/v1/Contact/BlockUserRelation",
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "description": ""
+              },
+              {
+                "key": "Accept",
+                "value": "application/json",
+                "description": ""
+              },
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}",
+                "description": ""
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "[\"57e8ff2c6fcfa5250f9567af\"]"
+            },
+            "description": ""
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "9be2e744-809b-7e77-bd87-04da473c01c8",
+          "name": "RejectUserRelation",
+          "request": {
+            "url": "{{url}}/ServUpApi/v1/Contact/RejectUserRelation",
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "description": ""
+              },
+              {
+                "key": "Accept",
+                "value": "application/json",
+                "description": ""
+              },
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}",
+                "description": ""
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "[\"57e8ff2c6fcfa5250f9567af\",\"57e8ff2c6fcfa5250f9567ab\",\"57e8ff2c6fc\"]"
+            },
+            "description": ""
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "de63d5e4-114e-6672-ddf7-722722dd6756",
+          "name": "GetRelations",
+          "request": {
+            "url": "{{url}}/Api/v1/Contacts/Relations",
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "description": ""
+              },
+              {
+                "key": "Accept",
+                "value": "application/json",
+                "description": ""
+              },
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}",
+                "description": ""
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "[\"001111118423238\",\"777263\",\"033300909090\"]"
+            },
+            "description": "get all friends"
+          },
+          "response": []
         }
       ]
     },
