@@ -1928,6 +1928,37 @@
             "description": ""
           },
           "response": []
+        },
+        {
+          "_postman_id": "dcf839a4-8674-5ed8-9e5c-79011ad9896f",
+          "name": "Get Notification settings copy",
+          "request": {
+            "url": "{{url}}/Api/v1/Noticeboard",
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json",
+                "description": ""
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json;charset=utf-8;",
+                "description": ""
+              },
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}",
+                "description": ""
+              }
+            ],
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": ""
+          },
+          "response": []
         }
       ]
     },
