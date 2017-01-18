@@ -1966,7 +1966,39 @@
       "_postman_id": "6bac5d67-8660-08d4-cbf4-f070902ddeee",
       "name": "Friendship",
       "description": "",
-      "item": []
+      "item": [
+        {
+          "_postman_id": "021a784c-28f6-4dec-9cf3-98152c12c0d8",
+          "name": "GetReceivedRelationsRequests",
+          "request": {
+            "url": "{{url}}/Api/v1/Contacts/Relations/Received",
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "description": ""
+              },
+              {
+                "key": "Accept",
+                "value": "application/json",
+                "description": ""
+              },
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}",
+                "description": ""
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": ""
+            },
+            "description": "GetReceivedRelationsRequests\nIncoming friend requests for you.\nit gives u the list of all people who are adding you as a friend.\n\nYou can expect a reply like following:\n\n[\n  {\n    \"publicId\": \"57ea4ed77bbba435bce1c160\",\n    \"mobileNumber\": \"333344444\",\n    \"coverPictureURL\": \"http://sample.com/1.jpg\",\n    \"relation\": \"Friend\",\n    \"group\": \"Friend\"\n  }\n]\n\n"
+          },
+          "response": []
+        }
+      ]
     },
     {
       "_postman_id": "71c72263-00b1-2b8e-7fde-6cfe0d800ebd",
