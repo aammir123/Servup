@@ -442,6 +442,49 @@
       "description": "",
       "item": [
         {
+          "_postman_id": "d3aee841-a26a-400a-ccce-a187bc6a3d69",
+          "name": "RegisterSP",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "var jsonData = JSON.parse(responseBody);\r",
+                  "postman.setEnvironmentVariable(\"token\", jsonData.access_token);"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "url": "{{url}}/Api/v1/SP/Users/Register",
+            "method": "POST",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json",
+                "description": ""
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "description": ""
+              },
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}",
+                "description": ""
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"firstName\": \"aamir\",\r\n  \"email\": \"aammir.asghar@gmail.com\"\r\n}"
+            },
+            "description": ""
+          },
+          "response": []
+        },
+        {
           "_postman_id": "9c3d30c8-3ee6-a1af-2ee1-cd2c8bc48df6",
           "name": "Create Bank Account",
           "request": {
