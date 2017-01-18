@@ -1971,7 +1971,7 @@
           "_postman_id": "d81163be-2e71-7985-3eab-4152e56a7d88",
           "name": "Noticeboard",
           "request": {
-            "url": "{{url}}/ServUpApi/v1/Noticeboard",
+            "url": "{{url}}/Api/v1/Noticeboard",
             "method": "GET",
             "header": [
               {
