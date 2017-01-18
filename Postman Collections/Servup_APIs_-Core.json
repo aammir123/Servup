@@ -2059,6 +2059,37 @@
             "description": ""
           },
           "response": []
+        },
+        {
+          "_postman_id": "29402f6c-e9df-23e1-9802-65c4ebe2a03a",
+          "name": "AcceptUserRelation",
+          "request": {
+            "url": "{{url}}/Api/v1/Contacts/Relations/Accept",
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "description": ""
+              },
+              {
+                "key": "Accept",
+                "value": "application/json",
+                "description": ""
+              },
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}",
+                "description": ""
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "[\"bbbcc0adb6484a2d80084b2d420a3412\"]"
+            },
+            "description": ""
+          },
+          "response": []
         }
       ]
     },
