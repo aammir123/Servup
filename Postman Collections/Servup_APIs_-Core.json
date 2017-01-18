@@ -2028,6 +2028,37 @@
             "description": "CheckFriendRequestConfirmation\n\nyou can check the statuses of all requests that YOU have sent. that is, if the status is still pending, or have they accepted it.\n\nexpect a reply like:\n\n[\n  {\n    \"publicId\": \"57e8f94b7bbba4017089e756\",\n    \"mobileNumber\": \"001111118423238\",\n    \"coverPictureURL\": \"http://sample.com/1.jpg\",\n    \"relation\": \"Friend\",\n    \"group\": \"Friend\"\n  }\n]"
           },
           "response": []
+        },
+        {
+          "_postman_id": "340fc51b-1554-2817-9b23-166b5c0f12f5",
+          "name": "CancelRequestSent",
+          "request": {
+            "url": "{{url}}/ServUpApi/v1/Contact/CancelRequestSent",
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "description": ""
+              },
+              {
+                "key": "Accept",
+                "value": "application/json",
+                "description": ""
+              },
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}",
+                "description": ""
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "[\"57e8ff2c6fcfa5250f9567af\",\"57e8ff2c6fcfa5250f9567aa\",\"57e8ff2c6\"]"
+            },
+            "description": ""
+          },
+          "response": []
         }
       ]
     },
