@@ -442,32 +442,6 @@
       "description": "",
       "item": [
         {
-          "_postman_id": "0c797629-3de1-ff49-ee85-b9b06ab4bb50",
-          "name": "RegisterSpUser",
-          "request": {
-            "url": "{{url}}/ServUpApi/v1/Onboarding/RegisterSpUser",
-            "method": "POST",
-            "header": [
-              {
-                "key": "Accept",
-                "value": "application/json",
-                "description": ""
-              },
-              {
-                "key": "Content-Type",
-                "value": "application/json",
-                "description": ""
-              }
-            ],
-            "body": {
-              "mode": "raw",
-              "raw": "{\r\n  \"firstName\": \"aamir\",\r\n  \"lastName\": \"asghar\",\r\n  \"designation\": \"CFO\",\r\n  \"landLineNumber\": \"231456743\",\r\n  \"email\": \"aammir.asghar@gmail.com\",\r\n  \"password\": \"abc\",\r\n  \"companyName\": \"servup\",\r\n  \"contactNumber\": \"00923219729811\",\r\n  \"address\": \"lahore\",\r\n  \"webSite\": \"www.google.com\",\r\n  \"industry\": \"telecom\",\r\n  \"listOfServices\": [\r\n    {\r\n      \"serviceType\": \"online\",\r\n      \"name\": \"abc\",\r\n      \"description\": \"abc\",\r\n      \"isApiIntegrationRequired\": true,\r\n      \"serviceTeritory\": [\r\n        {\r\n          \"latitude\": 0,\r\n          \"longitude\": 0,\r\n          \"area\": \"model town\",\r\n          \"country\": \"pakistan\",\r\n          \"city\": \"lahore\"\r\n        }\r\n      ],\r\n      \"chargingMechanics\": \"Subscription\"\r\n    }\r\n  ],\r\n  \"isTermsAndConditionsAgreed\": true\r\n}"
-            },
-            "description": ""
-          },
-          "response": []
-        },
-        {
           "_postman_id": "9c3d30c8-3ee6-a1af-2ee1-cd2c8bc48df6",
           "name": "Create Bank Account",
           "request": {
