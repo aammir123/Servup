@@ -2033,7 +2033,7 @@
           "_postman_id": "ca446f46-08ad-6b71-b44a-623d027ea89d",
           "name": "GetRelationsByGroup",
           "request": {
-            "url": "{{url}}/ServUpApi/v1/Contact/GetRelationsByGroup/family",
+            "url": "{{url}}/Api/v1/Contacts/Relations/Group/family",
             "method": "GET",
             "header": [
               {
