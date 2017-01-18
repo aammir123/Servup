@@ -1931,7 +1931,7 @@
         },
         {
           "_postman_id": "dcf839a4-8674-5ed8-9e5c-79011ad9896f",
-          "name": "Get Notification settings copy",
+          "name": "Get Noticeboard",
           "request": {
             "url": "{{url}}/Api/v1/Noticeboard",
             "method": "GET",
