@@ -879,8 +879,8 @@
           "_postman_id": "662b5745-3d87-a6d6-718b-cb8e63ada935",
           "name": "AddInterests",
           "request": {
-            "url": "{{url}}/Api/v1/ProfileCard/AddInterests",
-            "method": "POST",
+            "url": "{{url}}/Api/v1/Users/Interests",
+            "method": "PUT",
             "header": [
               {
                 "key": "Accept",
@@ -1963,6 +1963,12 @@
       ]
     },
     {
+      "_postman_id": "6bac5d67-8660-08d4-cbf4-f070902ddeee",
+      "name": "Friendship",
+      "description": "",
+      "item": []
+    },
+    {
       "_postman_id": "71c72263-00b1-2b8e-7fde-6cfe0d800ebd",
       "name": "NoticeBoard",
       "description": "",
@@ -1971,7 +1977,7 @@
           "_postman_id": "d81163be-2e71-7985-3eab-4152e56a7d88",
           "name": "Noticeboard",
           "request": {
-            "url": "{{url}}/ServUpApi/v1/Noticeboard",
+            "url": "{{url}}/Api/v1/Noticeboard",
             "method": "GET",
             "header": [
               {
@@ -2639,7 +2645,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "[\r\n{\"mobileNumber\":\"00923257153107\",\"name\":\"Ali3\"},\r\n{\"mobileNumber\":\"00923038860118\",\"name\":\"Ali3\"}\r\n]"
+              "raw": "[\r\n{\"mobileNumber\":\"00923257153107\",\"name\":\"Ali3\"},\r\n{\"mobileNumber\":\"00923038860119\",\"name\":\"Ali3\"}\r\n]"
             },
             "description": ""
           },
