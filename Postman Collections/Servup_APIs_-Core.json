@@ -879,8 +879,8 @@
           "_postman_id": "662b5745-3d87-a6d6-718b-cb8e63ada935",
           "name": "AddInterests",
           "request": {
-            "url": "{{url}}/Api/v1/ProfileCard/AddInterests",
-            "method": "POST",
+            "url": "{{url}}/Api/v1/Users/Interests",
+            "method": "PUT",
             "header": [
               {
                 "key": "Accept",
@@ -1716,7 +1716,7 @@
           "_postman_id": "d39924e8-b7f1-9262-51ce-b6a587f749e0",
           "name": "Get Help Center",
           "request": {
-            "url": "{{url}}/Api/v1/Help",
+            "url": "{{url}}/Api/v1/HelpCenter",
             "method": "GET",
             "header": [
               {
