@@ -106,7 +106,7 @@
           "_postman_id": "88831583-701b-d38c-a274-3bd3ac72a3ee",
           "name": "VerifyPIN",
           "request": {
-            "url": "{{url}}/Api/v1/Users/00923038860118/Pin/1111/Verify",
+            "url": "{{url}}/Api/v1/Users/00923235029955/Pin/1111/Verify",
             "method": "POST",
             "header": [
               {
@@ -3749,7 +3749,7 @@
           "urlencoded": [
             {
               "key": "username",
-              "value": "0909029309209",
+              "value": "00923038860118",
               "type": "text",
               "enabled": true
             },
