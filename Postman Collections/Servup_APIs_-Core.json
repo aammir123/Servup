@@ -1778,7 +1778,7 @@
           "_postman_id": "2ee16ed6-f523-ae9b-dc33-d82a005f503c",
           "name": "Get Consumer Intrests",
           "request": {
-            "url": "{{url}}/Api/v1/ProfileCard/GetInterests",
+            "url": "{{url}}/Api/v1/Users/Interests",
             "method": "GET",
             "header": [
               {
