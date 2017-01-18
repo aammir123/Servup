@@ -972,7 +972,7 @@
           "_postman_id": "3d521dc3-e781-a3b8-58c9-191e216dee01",
           "name": "ViewOtherUserProfile",
           "request": {
-            "url": "{{url}}/Api/v1/SP/BusinessProfiles/Other/{spId}",
+            "url": "{{url}}/Api/v1/Users/ViewOtherConsumer/c9c0779a0c204d2b9759464be3306521",
             "method": "GET",
             "header": [
               {
