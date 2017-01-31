@@ -4100,7 +4100,7 @@
           "_postman_id": "3e8e83f3-d90b-ed88-aff7-2107e0dd4653",
           "name": "ReportsDashboard",
           "request": {
-            "url": "{{url}}/Api/v1/SP/Reports/Campaigns/Dashboard?start=2000-01-04T19:07:04.335Z&end=2019-02-04T19:07:04.335Z&limit=40&offset=1",
+            "url": "{{url}}/Api/v1/SP/Reports/Campaigns/Dashboard?start=2000-01-04T19:07:04.335Z&end=2019-02-04T19:07:04.335Z&limit=40&offset=0",
             "method": "GET",
             "header": [
               {
