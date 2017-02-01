@@ -3920,7 +3920,7 @@
           "_postman_id": "42bb23c0-5346-9bb8-f887-ec1cd9ca5fe6",
           "name": "PublishCard",
           "request": {
-            "url": "{{url}}/Api/v1/SP/ServiceCards/{cardId}/Publish",
+            "url": "{{url}}/Api/v1/SP/ServiceCards/d448928107824f19ab8c00038e2140db/Publish",
             "method": "PUT",
             "header": [
               {
