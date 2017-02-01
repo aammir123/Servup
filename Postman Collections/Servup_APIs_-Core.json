@@ -2517,6 +2517,37 @@
             "description": ""
           },
           "response": []
+        },
+        {
+          "_postman_id": "2a8d0698-26d3-f6e4-2327-022bc2048512",
+          "name": "Notification Counter copy",
+          "request": {
+            "url": "{{url}}/Api/v1/Users/Notifications/Counters",
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json",
+                "description": ""
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "description": ""
+              },
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}",
+                "description": ""
+              }
+            ],
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": ""
+          },
+          "response": []
         }
       ]
     },
