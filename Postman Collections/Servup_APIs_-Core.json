@@ -4131,7 +4131,7 @@
           "_postman_id": "da494697-50f0-1b2b-2420-4e1c047e4f46",
           "name": "GetAllInvoices",
           "request": {
-            "url": "{{url}}/Api/v1/SP/Reports/Invoices/GetAllInvoices?start=2016-12-1T12:00:05.162Z&end=2016-12-1T18:58:05.162Z",
+            "url": "{{url}}/Api/v1/SP/Reports/Invoices/GetAllInvoices?start=2016-12-1T12:00:05.162Z&end=2016-12-1T18:58:05.162Z&limit=34&offset=1",
             "method": "GET",
             "header": [
               {
