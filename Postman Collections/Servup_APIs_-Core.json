@@ -2520,7 +2520,7 @@
         },
         {
           "_postman_id": "2a8d0698-26d3-f6e4-2327-022bc2048512",
-          "name": "Notification Counter copy",
+          "name": "SP Notification Counter",
           "request": {
             "url": "{{url}}/Api/v1/Users/Notifications/Counters",
             "method": "GET",
