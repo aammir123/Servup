@@ -4312,6 +4312,37 @@
             "description": ""
           },
           "response": []
+        },
+        {
+          "_postman_id": "37723463-07cb-d2ad-0807-409d975cb4ee",
+          "name": "ReportsDashboard copy",
+          "request": {
+            "url": "{{url}}/Api/v1/SP/Reports/Campaigns/Dashboard?start=2000-01-04T19:07:04.335Z&end=2019-02-04T19:07:04.335Z&limit=3&offset=0",
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json",
+                "description": ""
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "description": ""
+              },
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}",
+                "description": ""
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": ""
+            },
+            "description": ""
+          },
+          "response": []
         }
       ]
     },
