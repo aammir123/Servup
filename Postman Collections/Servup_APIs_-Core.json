@@ -2491,7 +2491,7 @@
           "_postman_id": "2f08fece-6867-61e4-cf49-b8cedafdfa0d",
           "name": "Get Sp Notifications ",
           "request": {
-            "url": "{{url}}/Api/v1/SP/Notifications/?category=all&limit=20&offet=0",
+            "url": "{{url}}/Api/v1/SP/Notifications/?category=all&limit=20&offset=0",
             "method": "GET",
             "header": [
               {
