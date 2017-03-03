@@ -945,7 +945,7 @@
           "_postman_id": "c235d836-69f2-0f84-9ce6-11b4866c347b",
           "name": "UpdateConsumerCoverPic",
           "request": {
-            "url": "{{url}}/ServUpApi/v1/ProfileCard/UpdateUserCoverPicture",
+            "url": "{{url}}/Api/v1/Users/Profile/CoverPicture",
             "method": "PUT",
             "header": [
               {
@@ -969,9 +969,20 @@
               "formdata": [
                 {
                   "key": "file",
-                  "value": "",
                   "type": "file",
-                  "enabled": true
+                  "enabled": true,
+                  "src": {
+                    "0": {
+                      "name": "abc.jpg",
+                      "path": "C:\\Users\\Amir\\Desktop\\abc.jpg",
+                      "lastModified": 1469883138873,
+                      "lastModifiedDate": "2016-07-30T12:52:18.873Z",
+                      "webkitRelativePath": "",
+                      "size": 12838,
+                      "type": "image/jpeg"
+                    },
+                    "length": 1
+                  }
                 }
               ]
             },
