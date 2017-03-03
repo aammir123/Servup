@@ -2074,6 +2074,37 @@
             "description": ""
           },
           "response": []
+        },
+        {
+          "_postman_id": "69b4c24f-3728-520b-2541-56e2195fae2d",
+          "name": "LikeCard copy",
+          "request": {
+            "url": "{{url}}/Api/v1/ServiceCards/4c5d4c4d1e314058af1f4bdf2a591beb/Save",
+            "method": "POST",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json",
+                "description": ""
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json;charset=utf-8;",
+                "description": ""
+              },
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}",
+                "description": ""
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"spUserId\": \"sfjk\"\n}"
+            },
+            "description": ""
+          },
+          "response": []
         }
       ]
     },
