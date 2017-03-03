@@ -2100,7 +2100,7 @@
             ],
             "body": {
               "mode": "raw",
-              "raw": "Api/v1/ServiceCards/{cardId}/Shares/{contactId}"
+              "raw": ""
             },
             "description": ""
           },
