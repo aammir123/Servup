@@ -1335,7 +1335,7 @@
           "_postman_id": "5dd6014e-c3e2-5c90-6d12-b65c2d99eadd",
           "name": "UpdateConsumerLocation",
           "request": {
-            "url": "{{url}}/Api/v1/Users/Profile/Location/31.4870546/74.3123465",
+            "url": "{{url}}/Api/v1/Users/Profile/Location/31.474696/74.4448693",
             "method": "PUT",
             "header": [
               {
