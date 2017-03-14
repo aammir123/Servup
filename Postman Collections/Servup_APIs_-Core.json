@@ -2077,7 +2077,7 @@
         },
         {
           "_postman_id": "69b4c24f-3728-520b-2541-56e2195fae2d",
-          "name": "LikeCard copy",
+          "name": "Share card",
           "request": {
             "url": "{{url}}/Api/v1/ServiceCards/4c5d4c4d1e314058af1f4bdf2a591beb/Shares/a735f85051ce4bd48143f5afbf057d56",
             "method": "POST",
