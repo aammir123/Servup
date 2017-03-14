@@ -2108,10 +2108,10 @@
         },
         {
           "_postman_id": "7a0802a7-7c45-18d1-db8f-64e43587f3d8",
-          "name": "LikeCard copy",
+          "name": "Unlike Card",
           "request": {
-            "url": "{{url}}/Api/v1/ServiceCards/03079341da944e589bba40dea8f270f5/UnLike",
-            "method": "POST",
+            "url": "{{url}}/Api/v1/ServiceCards/cdf32b792b4d43b987c5f6a193ccad1b/UnLike",
+            "method": "PUT",
             "header": [
               {
                 "key": "Accept",
