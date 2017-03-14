@@ -2105,6 +2105,37 @@
             "description": ""
           },
           "response": []
+        },
+        {
+          "_postman_id": "7a0802a7-7c45-18d1-db8f-64e43587f3d8",
+          "name": "LikeCard copy",
+          "request": {
+            "url": "{{url}}/Api/v1/ServiceCards/03079341da944e589bba40dea8f270f5/Save",
+            "method": "POST",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json",
+                "description": ""
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json;charset=utf-8;",
+                "description": ""
+              },
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}",
+                "description": ""
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"spUserId\": \"sfjk\"\n}"
+            },
+            "description": ""
+          },
+          "response": []
         }
       ]
     },
